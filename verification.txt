@@ -1,0 +1,13 @@
+TraceCase milestone 1.1 verification
+
+Command: python -m unittest discover -s tests -v
+Runtime: Python 3.12
+Result: 17 tests passed on 2026-10-23.
+
+Coverage: review-period arithmetic and date scope; evidence validation; case-scoped
+history; independent public sessions; saved-snapshot report export; server API key
+not prefilled in browser widgets; AI claim acknowledgment before assisted saves;
+worked-example reference grounding; optional provider contract with mocked responses.
+
+No paid live model request was made. No independent AML expert validation,
+production security certification or completed cloud deployment is implied.

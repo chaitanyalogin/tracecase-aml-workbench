@@ -1,0 +1,325 @@
+[
+  {
+    "id": "C001",
+    "title": "Anita Rao | Non-routine credits",
+    "period_start": "2026-10-01",
+    "period_end": "2026-10-23",
+    "customer": {
+      "id": "C001-KYC",
+      "name": "Anita Rao",
+      "account_id": "SYNTH-0001",
+      "occupation": "Salaried employee",
+      "expected_monthly_inr": 30000,
+      "relationship_since": "2025-06-01",
+      "source_of_funds": "Salary",
+      "review_note": "Customer names and all associated records are fictional. Expected activity is a training assumption, not a legal threshold."
+    },
+    "transactions": [
+      {
+        "id": "C001-T001",
+        "date": "2026-07-01T09:00:00",
+        "direction": "in",
+        "amount_inr": 30000,
+        "counterparty_id": "EMPLOYER",
+        "purpose": "salary",
+        "currency": "INR"
+      },
+      {
+        "id": "C001-T002",
+        "date": "2026-08-01T09:00:00",
+        "direction": "in",
+        "amount_inr": 30000,
+        "counterparty_id": "EMPLOYER",
+        "purpose": "salary",
+        "currency": "INR"
+      },
+      {
+        "id": "C001-T003",
+        "date": "2026-09-01T09:00:00",
+        "direction": "in",
+        "amount_inr": 30000,
+        "counterparty_id": "EMPLOYER",
+        "purpose": "salary",
+        "currency": "INR"
+      },
+      {
+        "id": "C001-T004",
+        "date": "2026-10-01T09:00:00",
+        "direction": "in",
+        "amount_inr": 30000,
+        "counterparty_id": "EMPLOYER",
+        "purpose": "salary",
+        "currency": "INR"
+      },
+      {
+        "id": "C001-T005",
+        "date": "2026-10-03T12:00:00",
+        "direction": "out",
+        "amount_inr": 12000,
+        "counterparty_id": "LANDLORD",
+        "purpose": "rent",
+        "currency": "INR"
+      },
+      {
+        "id": "C001-T006",
+        "date": "2026-10-07T17:30:00",
+        "direction": "out",
+        "amount_inr": 2500,
+        "counterparty_id": "GROCERY",
+        "purpose": "groceries",
+        "currency": "INR"
+      },
+      {
+        "id": "C001-T011",
+        "date": "2026-10-15T10:00:00",
+        "direction": "in",
+        "amount_inr": 120000,
+        "counterparty_id": "PAYER-01",
+        "purpose": "transfer",
+        "currency": "INR"
+      },
+      {
+        "id": "C001-T012",
+        "date": "2026-10-15T10:00:00",
+        "direction": "in",
+        "amount_inr": 120000,
+        "counterparty_id": "PAYER-02",
+        "purpose": "transfer",
+        "currency": "INR"
+      },
+      {
+        "id": "C001-T013",
+        "date": "2026-10-15T10:00:00",
+        "direction": "in",
+        "amount_inr": 120000,
+        "counterparty_id": "PAYER-03",
+        "purpose": "transfer",
+        "currency": "INR"
+      },
+      {
+        "id": "C001-T014",
+        "date": "2026-10-15T10:00:00",
+        "direction": "in",
+        "amount_inr": 120000,
+        "counterparty_id": "PAYER-04",
+        "purpose": "transfer",
+        "currency": "INR"
+      },
+      {
+        "id": "C001-T015",
+        "date": "2026-10-15T10:00:00",
+        "direction": "in",
+        "amount_inr": 120000,
+        "counterparty_id": "PAYER-05",
+        "purpose": "transfer",
+        "currency": "INR"
+      },
+      {
+        "id": "C001-T016",
+        "date": "2026-10-15T10:00:00",
+        "direction": "in",
+        "amount_inr": 120000,
+        "counterparty_id": "PAYER-06",
+        "purpose": "transfer",
+        "currency": "INR"
+      },
+      {
+        "id": "C001-T017",
+        "date": "2026-10-15T10:00:00",
+        "direction": "in",
+        "amount_inr": 120000,
+        "counterparty_id": "PAYER-07",
+        "purpose": "transfer",
+        "currency": "INR"
+      },
+      {
+        "id": "C001-T018",
+        "date": "2026-10-15T10:00:00",
+        "direction": "in",
+        "amount_inr": 120000,
+        "counterparty_id": "PAYER-08",
+        "purpose": "transfer",
+        "currency": "INR"
+      },
+      {
+        "id": "C001-T019",
+        "date": "2026-10-15T10:00:00",
+        "direction": "in",
+        "amount_inr": 120000,
+        "counterparty_id": "PAYER-09",
+        "purpose": "transfer",
+        "currency": "INR"
+      },
+      {
+        "id": "C001-T020",
+        "date": "2026-10-15T10:00:00",
+        "direction": "in",
+        "amount_inr": 120000,
+        "counterparty_id": "PAYER-10",
+        "purpose": "transfer",
+        "currency": "INR"
+      },
+      {
+        "id": "C001-T030",
+        "date": "2026-10-16T09:00:00",
+        "direction": "out",
+        "amount_inr": 570000,
+        "counterparty_id": "RECIPIENT-A",
+        "purpose": "transfer",
+        "currency": "INR"
+      },
+      {
+        "id": "C001-T031",
+        "date": "2026-10-16T11:00:00",
+        "direction": "out",
+        "amount_inr": 570000,
+        "counterparty_id": "RECIPIENT-B",
+        "purpose": "transfer",
+        "currency": "INR"
+      }
+    ],
+    "documents": [
+      {
+        "id": "C001-D001",
+        "title": "Customer statement",
+        "text": "Customer says the transfers were collections for friends. The relationship to the ten payers and two recipients is not documented. No invoice, agreement or ownership evidence was provided. The statement is unverified.",
+        "status": "Provided; unverified",
+        "transaction_ids": []
+      },
+      {
+        "id": "C001-D002",
+        "title": "Review checks record",
+        "text": "The synthetic internal record shows no prior case. No external sanctions, PEP or adverse-media screening has been performed. The absence of a screening result is not a clean result.",
+        "status": "Synthetic internal record",
+        "transaction_ids": []
+      }
+    ]
+  },
+  {
+    "id": "C002",
+    "title": "Vikram Shah | Non-routine credits",
+    "period_start": "2026-10-01",
+    "period_end": "2026-10-23",
+    "customer": {
+      "id": "C002-KYC",
+      "name": "Vikram Shah",
+      "account_id": "SYNTH-0002",
+      "occupation": "Salaried employee",
+      "expected_monthly_inr": 40000,
+      "relationship_since": "2025-06-01",
+      "source_of_funds": "Salary",
+      "review_note": "Customer names and all associated records are fictional. Expected activity is a training assumption, not a legal threshold."
+    },
+    "transactions": [
+      {
+        "id": "C002-T001",
+        "date": "2026-07-01T09:00:00",
+        "direction": "in",
+        "amount_inr": 40000,
+        "counterparty_id": "EMPLOYER",
+        "purpose": "salary",
+        "currency": "INR"
+      },
+      {
+        "id": "C002-T002",
+        "date": "2026-08-01T09:00:00",
+        "direction": "in",
+        "amount_inr": 40000,
+        "counterparty_id": "EMPLOYER",
+        "purpose": "salary",
+        "currency": "INR"
+      },
+      {
+        "id": "C002-T003",
+        "date": "2026-09-01T09:00:00",
+        "direction": "in",
+        "amount_inr": 40000,
+        "counterparty_id": "EMPLOYER",
+        "purpose": "salary",
+        "currency": "INR"
+      },
+      {
+        "id": "C002-T004",
+        "date": "2026-10-01T09:00:00",
+        "direction": "in",
+        "amount_inr": 40000,
+        "counterparty_id": "EMPLOYER",
+        "purpose": "salary",
+        "currency": "INR"
+      },
+      {
+        "id": "C002-T005",
+        "date": "2026-10-03T12:00:00",
+        "direction": "out",
+        "amount_inr": 12000,
+        "counterparty_id": "LANDLORD",
+        "purpose": "rent",
+        "currency": "INR"
+      },
+      {
+        "id": "C002-T006",
+        "date": "2026-10-07T17:30:00",
+        "direction": "out",
+        "amount_inr": 2500,
+        "counterparty_id": "GROCERY",
+        "purpose": "groceries",
+        "currency": "INR"
+      },
+      {
+        "id": "C002-T011",
+        "date": "2026-10-15T10:00:00",
+        "direction": "in",
+        "amount_inr": 600000,
+        "counterparty_id": "BUYER-A",
+        "purpose": "transfer",
+        "currency": "INR"
+      },
+      {
+        "id": "C002-T012",
+        "date": "2026-10-15T10:30:00",
+        "direction": "in",
+        "amount_inr": 600000,
+        "counterparty_id": "BUYER-B",
+        "purpose": "transfer",
+        "currency": "INR"
+      },
+      {
+        "id": "C002-T030",
+        "date": "2026-10-16T09:00:00",
+        "direction": "out",
+        "amount_inr": 1140000,
+        "counterparty_id": "MORTGAGE-LENDER",
+        "purpose": "transfer",
+        "currency": "INR"
+      }
+    ],
+    "documents": [
+      {
+        "id": "C002-D001",
+        "title": "Fictional property sale completion record",
+        "text": "Synthetic case evidence: Vikram Shah is the seller. Recorded total sale proceeds are INR 1,200,000, payable by BUYER-A and BUYER-B in equal portions. The simulated verification log records confirmation of the transaction and parties from the conveyancer through independently recorded contact details. This is a fictional training assertion, not a real registry check.",
+        "status": "Verified within fictional scenario",
+        "transaction_ids": [
+          "C002-T011",
+          "C002-T012"
+        ]
+      },
+      {
+        "id": "C002-D002",
+        "title": "Fictional mortgage redemption statement",
+        "text": "Synthetic case evidence: outstanding mortgage redemption amount INR 1,140,000, payable to MORTGAGE-LENDER. The fictional verification record confirms the beneficiary and obligation through the recorded lender contact.",
+        "status": "Verified within fictional scenario",
+        "transaction_ids": [
+          "C002-T030"
+        ]
+      },
+      {
+        "id": "C002-D003",
+        "title": "Review checks record",
+        "text": "In this synthetic scenario, completed screening and identity review records show no unresolved matches. No material conflict with the sale documents is recorded. This is fabricated training evidence, not live screening.",
+        "status": "Verified within fictional scenario",
+        "transaction_ids": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "C001": {
+    "reasonable_outcomes": ["request_information", "escalate"],
+    "reasoning": "Ten non-salary payers and closely following onward transfers conflict with the declared salary-only profile. The customer statement is not corroborated. Request information about the parties, economic purpose, and supporting records; escalate unresolved concern in accordance with the exercise policy. Immediate internal escalation can also be defensible if the analyst explains why. Do not conclude that money laundering is proven. No external screening has been done, so do not describe the customer as cleared.",
+    "questions": ["What connects the customer, ten payers and two recipients?", "What documents corroborate the collection purpose?", "Is there additional activity outside the review period?", "Which applicable internal policy controls timing and escalation?"],
+    "pitfall": "Closing solely because the customer supplied an explanation, or calling the customer a criminal solely because of the income multiple."
+  },
+  "C002": {
+    "reasonable_outcomes": ["close"],
+    "reasoning": "The synthetic verified sale completion record explains both buyers and the total INR 1,200,000 received. The synthetic verified mortgage redemption record explains the INR 1,140,000 onward payment. A closure of this specific alert is reasonable if the analyst checks the matching parties, dates and amounts and records residual limitations. Closure is not permanent approval of the relationship. These verification records exist only inside the fictional scenario.",
+    "questions": ["Do both buyers match the sale record?", "Does the beneficiary match the redemption statement?", "What difference would unverified documents make?", "Which new contradictory evidence would change your decision?"],
+    "pitfall": "Escalating based only on an income multiple while ignoring corroborating context, or assuming that a document marked provided was independently verified."
+  }
+}
