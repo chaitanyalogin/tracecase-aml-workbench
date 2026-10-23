@@ -1,5 +1,7 @@
 # TraceCase
 
+[Open the live investigation workbench](https://tracecase-aml-workbench.streamlit.app/) | [First investigation guide](FIRST_SESSION.md)
+
 An independent AML investigation workbench using entirely synthetic customer records, documents and transactions. Milestone 1.1 demonstrates an investigation flow: understand the customer, investigate unusual activity, challenge an assisted brief and document an evidence-backed decision.
 
 Built as an AI-assisted learning project. The workbench is a portfolio demonstration, not a bank production deployment or a claim of professional AML experience. Its value is the investigation reasoning and work product, not a claim of automated crime detection.
@@ -7,7 +9,7 @@ Built as an AI-assisted learning project. The workbench is a portfolio demonstra
 ## Review the project in five minutes
 
 1. Read the [recruiter guide](docs/RECRUITER_GUIDE.md) for the AML skills and review criteria.
-2. Run the app and select C001. Compare the customer profile, documents and calculated findings.
+2. Open the live demo or run the app locally and select C001. Compare the customer profile, documents and calculated findings.
 3. In AI assistance, load the clearly labelled author-written example or import a response to the exported case prompt. No API key is required for this flow.
 4. Inspect the cited evidence, write your own decision and download the investigation report.
 5. Compare C002: a similar transaction ratio has a different evidential context.
@@ -69,13 +71,13 @@ No real identities, account numbers, government identifiers, live screening reco
 
 ## Boundaries of milestone one
 
-There is no live screening feed, no registry integration, no trained ML classifier, no money-laundering probability score, no independent AML expert validation, and no authenticated reviewer approval. History is append-only through the UI but can be changed by a person with filesystem access. No claim of tamper-proof auditing is made. The app is a single-user local training tool. Identical repeated saves create additional history records.
+There is no live screening feed, no registry integration, no trained ML classifier, no money-laundering probability score, no independent AML expert validation, and no authenticated reviewer approval. History is append-only through the UI but can be changed by a person with filesystem access. No claim of tamper-proof auditing is made. The app is a training tool with session-separated history and an optional single-user local storage mode. Identical repeated saves create additional history records.
 
 The coaching is author-written exercise guidance, not legal advice or an independently assessed answer key. An employer's policy and jurisdiction-specific rules would determine actual escalation/reporting processes. The application is not authenticated; session separation is not an enterprise access control or durable storage system.
 
 ## Hosting
 
-GitHub hosts the source code; GitHub Pages cannot execute this Python application. To run a public demonstration, create an app in Streamlit Community Cloud using this repository, branch `main` and entry point `app.py`. Use Python 3.12, default session storage and disabled live AI. Do not publish runtime history or secrets. Session state is temporary, including on cloud hosting; visitors must export their own work. Add authentication and a durable external datastore before offering retained user accounts or production workflows. Public demonstrations should contain only the provided synthetic fixtures. No live demo URL is claimed until deployment is completed and verified.
+GitHub hosts the source code; GitHub Pages cannot execute this Python application. To run a public demonstration, create an app in Streamlit Community Cloud using this repository, branch `main` and entry point `app.py`. Use Python 3.12, default session storage and disabled live AI. Do not publish runtime history or secrets. Session state is temporary, including on cloud hosting; visitors must export their own work. Add authentication and a durable external datastore before offering retained user accounts or production workflows. Public demonstrations should contain only the provided synthetic fixtures. The public demo was deployed and checked on 23 October 2026 at https://tracecase-aml-workbench.streamlit.app/. Live browser checks covered evidence display, calculated findings, example-brief review, an explicitly assistant-labelled QA decision, report download and case separation. QA records are not candidate-authored work.
 
 ## Verification
 
