@@ -6,6 +6,10 @@ An independent AML investigation workbench using entirely synthetic customer rec
 
 Built as an AI-assisted learning project. The workbench is a portfolio demonstration, not a bank production deployment or a claim of professional AML experience. Its value is the investigation reasoning and work product, not a claim of automated crime detection.
 
+## Read without waiting for the demo
+
+The live app can sleep when idle. Open the [static case walkthrough](docs/CASE_WALKTHROUGH.md) or the [portfolio reading page](https://chaitanya-portfolio-a2f.pages.dev/tracecase-case-review.html) immediately. These are labelled AI-assisted project explanations, not candidate-completed assessment reports.
+
 ## Review the project in five minutes
 
 1. Read the [recruiter guide](docs/RECRUITER_GUIDE.md) for the AML skills and review criteria.
